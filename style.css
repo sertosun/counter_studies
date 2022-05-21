@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(0, 36, 25);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 36, 25, 1) 0%,
+    rgba(61, 42, 46, 1) 0%,
+    rgba(176, 54, 87, 1) 26%,
+    rgba(195, 90, 21, 0.981127485173757) 52%,
+    rgba(9, 121, 114, 0.7962535355939251) 100%
+  );
+}
+
+.container {
+  display: flex;
+  gap: 3em;
+  width: 100%;
+  height: 100vh;
+  place-items: center;
+  justify-content: center;
+}
+
+.counter_container {
+  text-align: center;
+  width: 300px;
+}
+
+i {
+  font-size: 4rem;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+span {
+  display: block;
+  font-size: 1.4rem;
+  color: white;
+}
+
+.counter {
+  font-size: 4rem;
+  margin: 1rem 0rem;
+  color: white;
+}
